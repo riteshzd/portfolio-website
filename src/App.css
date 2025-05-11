@@ -49,11 +49,10 @@
 }
 
 .intro-container {
-  max-width: 800px;
-  margin: 0;
-  padding: 1rem;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
   width: 100%;
-  margin-top: 2rem;
   box-sizing: border-box;
 }
 
@@ -68,12 +67,9 @@
 .intro-text {
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 2rem;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  margin-left: 2rem;
-  padding-right: 1rem;
+  margin-top: 1rem;
   opacity: 0.8;
+  max-width: 600px;
 }
 
 .links-container {
@@ -131,8 +127,7 @@
   }
 
   .intro-container {
-    padding: 0.5rem;
-    margin-top: 1rem;
+    padding: 0 1.5rem;
   }
 
   .name-heading {
@@ -170,5 +165,9 @@
   .intro-text {
     font-size: 0.85rem;
     margin-left: 0.8rem;
+  }
+
+  .intro-container {
+    padding: 0 1rem;
   }
 }
