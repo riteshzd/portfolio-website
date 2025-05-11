@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="intro-container">
+        <div className="intro-text">
+          Hi, I'm Ritesh Dash. I'm a software developer passionate about building impactful solutions.
+        </div>
+        <div className="links-container">
+          <a 
+            href="https://linkedin.com/in/your-profile" 
+            className="portfolio-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a 
+            href="/blog" 
+            className="portfolio-link"
+          >
+            Blog
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
