@@ -1,6 +1,6 @@
 import React from 'react';
 import BlogCard from './BlogCard';
-import Header from './Header';
+import Header from '../Header/Header';
 import './Blogs.css';
 
 function Blogs() {
